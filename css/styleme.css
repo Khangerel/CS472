@@ -1,0 +1,96 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #5B5448;
+    padding: 20px;
+    /* width: 100%; */
+    margin: 0;
+}
+
+h1 {
+    text-align: start;
+    color: #A4C1F6;
+}
+h3 {
+    color: #A4C1F6;
+}
+
+p {
+    text-align: start;
+    color: white;
+    font-size: 2vh;
+}
+p::first-letter {
+    font-size: 3vh;
+}
+#yellow {
+    color: yellow;
+    font-style: italic;
+}
+.header-key{
+    font-size: 1.5vh;
+    color: yellow;
+}
+.header-value{
+    font-size: 1.5vh;
+    line-height: 1.5vh;
+}
+.description {
+    font-style: italic;
+}
+.line {
+    height: 1px;
+    background-color: #A4C1F6;
+}
+
+ul.classes {
+    padding-left: 30px;
+    color: white;
+    line-height: 3vh;
+}
+ul.movies {
+    padding-left: 30px;
+    color: white;
+    line-height: 3vh;
+    list-style-type: decimal;
+}
+ul.neighbors {
+    list-style-type: circle;
+    color: white;
+    line-height: 3vh;
+    padding-left: 30px;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+.moods {
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+.mood-item {
+    padding: 10px;
+}
+.images {
+    height: 20vh;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgray;
+}
+footer p {
+    margin: 0;
+}
+footer img {
+    width: 100px;
+}
