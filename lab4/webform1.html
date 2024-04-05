@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS472 Lab4</title>
+    <link rel="stylesheet" href="../css/theme/bootstrap.min.css">
+  </head>
+  <body>
+    <main>
+      <form class="p-3" action="webform2.html">
+        <div class="mb-3 mt-2">
+          <label for="exampleInputWebsiteURL" class="form-label"
+            >Website URL</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            pattern="^(http|https)?:\/\/(\S+)"
+            placeholder="Website URL"
+            id="exampleInputWebsiteURL"
+          />
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="exampleInputFirstName" class="form-label"
+            >First Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            pattern="[A-Z][a-zA-Z]{1,}"
+            placeholder="First name"
+            id="exampleInputFirstName"
+            required
+          />
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            placeholder="Enter email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="Password"
+            class="form-control"
+            placeholder="password"
+            id="exampleInputPassword1"
+            pattern="^.{10,}$"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+    <footer>
+        <p>
+          <a
+            href="https://validator.w3.org/check?url=https://khangerel.github.io/CS472/lab4/webform1.html"
+          >
+            <img
+              src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png"
+              alt="Validate"
+            />
+          </a>
+        </p>
+      </footer>
+  </body>
+</html>

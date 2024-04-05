@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS472 Lab4</title>
+    <link rel="stylesheet" href="../css/theme/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/lab4webform2.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: #39a9e7">
+        <div class="container-fluid">
+          <span>MUM Golden Dome Market : : : SRM System</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item separator"></li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Products</a>
+              </li>
+              <li class="nav-item separator"></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Suppliers</a>
+              </li>
+            </ul>
+            <span class="p-2">Hello!</span>
+            <button type="button" class="btn btn-light rounded">
+              <a href="webform1.html"><p class="signout">Sign Out</p></a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container p-5">
+        <h2 class="title">New Product Form</h2>
+        <section>
+          <form action="webform1.html">
+            <div class="row p-3">
+              <div class="col-md-6 mt-4">
+                <label for="productNumber" class="form-label"
+                  >Product Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  id="productNumber"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="quantityInStock" class="form-label"
+                  >Quantity in stock</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  value="0"
+                  id="quantityInStock"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  id="name"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="supplier" class="form-label">Supplier</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Select a supplier</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="unitPrice" class="form-label">Unit price</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  value="0.0"
+                  id="unitPrice"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="dateSupplied" class="form-label"
+                  >Date supplied</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder=""
+                  id="dateSupplied"
+                  required
+                />
+                <div id="passwordHelpBlock" class="form-text">
+                  Enter a valid Date.
+                </div>
+              </div>
+              <div class="col-md-12 mt-4 d-flex flex-row-reverse gap-3">
+                <button type="button" class="btn btn-outline-success rounded">
+                  Add Product
+                </button>
+                <button type="button" class="btn btn-outline-danger rounded">
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded">
+                  Reset
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="m-0">
+      <p>
+        <a
+          href="https://validator.w3.org/check?url=https://khangerel.github.io/CS472/lab4/webform2.html"
+        >
+          <img
+            src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png"
+            alt="Validate"
+          />
+        </a>
+        <a
+          href="https://jigsaw.w3.org/css-validator/validator?uri=https://khangerel.github.io/CS472/css/lab4webform2.css"
+        >
+          <img
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!"
+          />
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>

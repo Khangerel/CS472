@@ -1,0 +1,25 @@
+.container-fluid a {
+    color: white;
+}
+
+.container-fluid span {
+    color: white;
+}
+.separator {
+    float: left;
+    width: 1px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.title {
+    font-weight: 300;
+}
+
+.signout {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
